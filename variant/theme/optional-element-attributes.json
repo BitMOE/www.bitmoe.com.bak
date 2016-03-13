@@ -1,0 +1,13 @@
+{ 
+	"options":[
+		{
+			"buttonText":"Edit Video Embed",
+			"modalTitle":"Edit Video Embed",
+			"modalIntro":"Get the embed code from your preferred video provider and paste here.",
+			"modalInputLabel":"Video Embed Code:",
+			"selector":".iframe-holder,iframe",
+			"attribute":"src",
+			"modalInputIcon":"video"
+		}
+	]
+}

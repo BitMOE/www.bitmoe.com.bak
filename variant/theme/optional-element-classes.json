@@ -1,0 +1,14 @@
+{ 
+	"options":[
+		{	
+			"type":"toggle",
+			"selector":"section, header",
+			"menu":"utility",
+			"submenu":"Section Controls",
+			"class":"hidden-xs",
+			"text":"Hide On Mobile",
+			"initial":"auto",
+			"icon":"phone"
+		}
+	]
+}
