@@ -271,10 +271,10 @@ $(document).ready(function(){
 	
 	// Twitter Feed
 	
-	if($('#tweets').length){
-		twitterFetcher.fetch($('#tweets').attr('data-widget-id'), '', 5, true, true, true, '', false, handleTweets);
+	//if($('#tweets').length){
+	//	twitterFetcher.fetch($('#tweets').attr('data-widget-id'), '', 5, true, true, true, '', false, handleTweets);
       
-    }
+    //}
     
     // Contact form code
 
