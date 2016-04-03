@@ -1550,7 +1550,8 @@ img.phone-portrait {
   margin-bottom: 32px;
 }
 .strip {
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .strip::-moz-placeholder {
   color: #999999;
@@ -2686,8 +2687,8 @@ iframe.mail-list-form {
   display: none !important;
 }
 footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 footer.social h1 {
   margin-bottom: 24px;
