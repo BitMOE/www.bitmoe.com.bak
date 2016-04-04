@@ -6229,7 +6229,7 @@ button.close {
 	border: 0
 }
 .footheight{height:70px;overflow:hidden;}
-.footernew{color:#515151;font-size:12px;line-height:24px;margin:12px auto 0;overflow:hidden;text-align:center;}
+.footernew{color:#FFFFFF;font-size:12px;line-height:24px;margin:12px auto 0;overflow:hidden;text-align:center;}
 .footernew a{color:#ffffff;text-decoration:none;}
 .footernew a.lchot{color:#ffffff;}
 .footernew a:hover{color:#ffffff;text-decoration:underline;}
