@@ -1293,6 +1293,8 @@ img.phone-portrait {
   width: 100%;
 }
 .clients p {
+
+  text-align: center;
   margin-bottom: 48px !important;
 }
 .client-row {
