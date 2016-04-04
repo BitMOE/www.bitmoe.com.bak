@@ -497,6 +497,7 @@ nav hr {
   float: left;
   margin-right: 56px;
   position: relative;
+  bottom: 3px;
 }
 .menu li:last-child {
   margin-right: 0px;
