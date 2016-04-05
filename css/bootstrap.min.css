@@ -6228,16 +6228,11 @@ button.close {
 	background-color: transparent;
 	border: 0
 }
-.footheight{height:70px;overflow:hidden;}
-.footernew{color:#FFFFFF;font-size:12px;line-height:24px;margin:12px auto 0;overflow:hidden;text-align:center;}
-.footernew a{color:#ffffff;text-decoration:none;}
-.footernew a.lchot{color:#ffffff;}
-.footernew a:hover{color:#ffffff;text-decoration:underline;}
-.footernew a:visited{color:#ffffff;}
-.footernew div{margin:0 auto;width:546px;}
-.footernew p{float:left;font-size:12px;height:60px;line-height:20px;margin:6px;padding:0;width:120px;overflow:hidden;}
-.footernew .fl{float:left;padding:3px;}
-.footernew .fr{float:right;padding:12px 3px 0;width:72px;}
+.identification div{padding:5px 0;}
+.identification img{display:inline-block;}
+.identification a{font-size:12px;color:#ffffff;text-decoration:none;display:inline-block;line-height:20px;vertical-align:middle;}
+.identification a:hover{text-decoration: underline;}
+
 
 .hidden {
 	display: none!important;
