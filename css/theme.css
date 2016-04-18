@@ -171,7 +171,7 @@ p.lead {
   margin-top: 20px;
 }
 p:last-child {
-  text-align: left;
+  /*text-align: left;*/
   margin-bottom: 0px;
 }
 p a {
