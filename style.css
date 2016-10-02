@@ -9,9 +9,7 @@ body {
 	-webkit-font-smoothing:antialiased;
 	line-height: 1.8em;
 	text-shadow: 0 0 1px rgba(255,255,255,0.1);
-	/*background: #fff;*/
     background: #F0FFFF;
-    /*overflow: auto;*/
 }
 img {border-width: 0px;}
 a{
@@ -68,18 +66,6 @@ a{
 	z-index: -1;
 	transform: rotatez(-15deg );
 }
-/*#DonateText::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: " ";
-	width: 70px;
-	height: 70px;
-	background: url(/images/BOXKS-Round.svg) no-repeat center center;
-	background-size: contain;
-	opacity: 0.05;
-	z-index: -1;
-}*/
 #remitBox {
 	left: calc(50% - 217px);
 	top: calc(50% - 15px);
@@ -120,13 +106,6 @@ a{
 }
 #remitBox>li:first-child {
 	border-width: 0;
-	/*border-radius: 6px 0 0 6px;*/
-}
-/*#remitBox>li:last-child {
-	border-radius: 0 6px 6px 0;
-}*/
-#remitBox #CMB1 {
-	background-image: url(images/China_Merchants_Bank_logo.svg);
 }
 #remitBox #BITMOE {
 	background-image: url(images/bitmoe.svg);
@@ -139,7 +118,6 @@ a{
     background: #fff url("") no-repeat scroll center 10px / 20px auto;
 }
 #remitBox > li:last-child {
-    /*background: #fff;*/
     border: 0;
     cursor: default;
     float: left;
@@ -148,7 +126,6 @@ a{
     overflow: hidden;
     text-align: left;
     width: 347px;
-    /*width: auto;*/
     color: #000 !important;
 }
 
@@ -168,29 +145,15 @@ a{
 	z-index: -1;
 	transform: rotatez(-15deg );
 }
-/*#DonateText::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: " ";
-	width: 70px;
-	height: 70px;
-	background: url(/images/BOXKS-Round.svg) no-repeat center center;
-	background-size: contain;
-	opacity: 0.05;
-	z-index: -1;
-}*/
 #donateBox {
 	left: calc(50% - 150px);
 	top: calc(70% - 15px);
-    /*background-color: #fff;*/
 	background-color: #F0FFFF;
     border: 1px solid #ddd;
 	border-radius: 6px;
 	width: 299px;
 	height: 28px;
 	float: left;
-	/*overflow: hidden;*/
 	z-index: 1;
 }
 #donateBox li {
@@ -218,41 +181,6 @@ a{
 }
 #donateBox>li:first-child {
 	border-width: 0;
-	/*border-radius: 6px 0 0 6px;*/
-}
-/*#donateBox>li:last-child {
-	border-radius: 0 6px 6px 0;
-}*/
-#donateBox #PayPal {
-	background-image: url(images/paypal.svg);
-}
-#donateBox #BTC {
-	background-image: url(images/bitcoin.svg);
-}
-/*#donateBox>#BTC {
-	background-image: url(images/bitcoin.svg);
-	line-height: 28px;
-}
-#donateBox>#BTC:hover {
-	overflow: visible;
-}
-#BTC>button {
-	opacity: 0;
-	cursor: pointer;
-}*/
-#donateBox #AliPay {
-	background-image: url(images/alipay.svg);
-}
-#donateBox #WeChat {
-	background-image: url(images/wechat.svg);
-}
-#QRBox {
-	top: 0;
-	left: 0;
-	z-index: 1;
-	background-color: rgba(255,255,255,0.3);
-	display: none;
-    perspective: 400px;
 }
 #MainBox {
 	cursor: pointer;
@@ -272,20 +200,11 @@ a{
     transform-origin: center center;
     overflow: hidden;
 }
-#btc-key {
-	opacity: 0;
-	width: 2px;
-	height: 8px;
-	overflow: hidden;
-	left: -2px;
-	top: -8px;
-}
 #mailico {
 	width: 24px;
 	height: 24px;
 	left: calc(50% + 135px);
 	top: calc(70% - 30px);
-	//background: no-repeat center center url(images/github.svg);
     background: no-repeat center center url(images/mail.svg);
     background-size: contain;
 	opacity: 0.3;
@@ -331,75 +250,4 @@ a{
 }
 [data-footnote]:hover::before,[data-footnote]:hover::after {
 	transform: translate3d(-50%,-7px,0);
-}
-
-#MainBox.showQR {
-	opacity: 1;
-    animation-name:showQR;
-    animation-duration:3s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:1;
-    animation-fill-mode:forwards;
-    -webkit-animation:showQR 3s ease-in-out 0s 1 normal forwards;
-}
-@keyframes showQR {
-	from {
-		transform: rotateX(90deg);
-	}
-	8% {
-		opacity: 1;
-		transform: rotateX(-60deg);
-	}
-	18% {
-		opacity: 1;
-		transform: rotateX(40deg);
-	}
-	34% {
-		opacity: 1;
-		transform: rotateX(-28deg);
-	}
-	44% {
-		opacity: 1;
-		transform: rotateX(18deg);
-	}
-	58% {
-		opacity: 1;
-		transform: rotateX(-12deg);
-	}
-	72% {
-		opacity: 1;
-		transform: rotateX(9deg);
-	}
-	88% {
-		opacity: 1;
-		transform: rotateX(-5deg);
-	}
-	96% {
-		opacity: 1;
-		transform: rotateX(2deg);
-	}
-	to {
-		opacity: 1;
-	}
-}
-#MainBox.hideQR {
-	opacity: 1;
-    animation-name:hideQR;
-    animation-duration:0.5s;
-    animation-timing-function:ease-in-out;
-    animation-iteration-count:1;
-    animation-fill-mode:forwards;
-    -webkit-animation:hideQR 0.5s ease-in-out 0s 1 normal forwards;
-}
-@keyframes hideQR {
-	from {
-	}
-	20%,50% {
-		transform: scale(1.08,1.08);
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-		transform: rotateZ(40deg) scale(0.6,0.6);
-	}
 }
