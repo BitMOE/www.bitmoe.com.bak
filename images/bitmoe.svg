@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="BITMOE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="293px" height="293px" viewBox="0 0 293 293" enable-background="new 0 0 293 293" xml:space="preserve">
+<polygon fill="#00A1F1" points="247.351,166.863 247.351,226.403 133.952,291.934 133.952,232.384 193.51,193.514 150.28,171.214 
+	150.28,112.763 "/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="247.351,166.863 247.351,226.403 
+	133.952,291.934 133.952,232.384 193.51,193.514 150.28,171.214 150.28,112.763 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-20.128" y="-15.728" width="340.198" height="340.161"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#00A1F1" d="M101.852,70.883l47.619-10.87l41.05,23.93l-40.24,28.82l53.24,29.3l43.38-23.96
+		v-58.27l-96.32-56.71l-50.818,0.49l-46.31,53.14v210.555l36.547,20.661c0,0,9.188,4.743,11.276-4.027
+		C103.364,275.171,101.852,70.883,101.852,70.883"/>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M101.852,70.883
+		l47.619-10.87l41.05,23.93l-40.24,28.82l53.24,29.3l43.38-23.96v-58.27l-96.32-56.71l-50.818,0.49l-46.31,53.14v210.555
+		l36.547,20.661c0,0,9.188,4.743,11.276-4.027C103.364,275.171,101.852,70.883,101.852,70.883z"/>
+</g>
+</svg>
