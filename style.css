@@ -75,7 +75,6 @@ a{
 	width: 432px;
 	height: 120px;
 	float: left;
-	/*overflow: hidden;*/
 	z-index: 1;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
@@ -94,9 +93,6 @@ a{
 	overflow: hidden;
 	line-height: 600px;
 	height: 120px;
-	/*-webkit-filter: grayscale(1);
-	filter: grayscale(1);
-	opacity: 0.5;*/
 }
 #remitBox:hover {
 	background-color: rgba(204, 217, 220,0.3);
@@ -128,7 +124,6 @@ a{
     width: 347px;
     color: #000 !important;
 }
-
 #DonateText {
 	position: fixed;
 	font-size: 10px;
@@ -209,45 +204,4 @@ a{
     background-size: contain;
 	opacity: 0.3;
 	transform: rotatez(15deg );
-}
-[data-footnote] {
-	position: relative;
-	overflow: hidden;
-}
-[data-footnote]:hover {
-	overflow: visible;
-}
-[data-footnote]::before, [data-footnote]::after {
-	position: absolute;
-	transition: all .3s;
-	transform: translate3d(-50%,0,0);
-	opacity: 0;
-	left: 37px;
-	z-index: 10;
-}
-[data-footnote]::before {
-	content: attr(data-footnote);
-	border-radius: 6px;
-	background-color: rgba(100,100,100,0.8);
-	color: #fff;
-	height: 24px;
-	line-height: 24px;
-	padding: 0 6px;
-	font-size: 12px;
-	white-space: nowrap;
-	top: -24px;
-	left: 37px;
-}
-[data-footnote]::after {
-	content: '';
-	border: 5px solid #333;
-	border-color: rgba(100,100,100,0.8) transparent transparent transparent;
-	top: 0;
-	left: 37px;
-}
-[data-footnote]:hover::before,[data-footnote]:hover::after {
-	opacity: 1;
-}
-[data-footnote]:hover::before,[data-footnote]:hover::after {
-	transform: translate3d(-50%,-7px,0);
 }
